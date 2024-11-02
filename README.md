@@ -19,6 +19,14 @@ The Sales Data dataset provides comprehensive details on transactions made at a 
 ---
 The dataset includes the following features related to student performance:
 
+ - OrderID: A unique identifier for each sale.
+ - Customer Id: A unique identifier for each customer.
+ - Product: The type of product sold.
+ - Region:
+ - OrderDate: Date on which the sale occurred.
+ - Quantity: Number of units sold in each transaction.
+ - UnitPrice:
+
 ### Data Sources
 ---
 This data set was gotten from The Incubator Hub (LITA) as a task for my final Project.
