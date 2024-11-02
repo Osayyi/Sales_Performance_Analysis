@@ -55,3 +55,12 @@ This data set was gotten from The Incubator Hub (LITA) as a task for my final Pr
  - Handling Missing Values: There was no missing values.
  - Standardizing Dates: Converted OrderDate to a standard date format.
  - Calculating Total Sales: Ensured Total sales was calculated as Quantity Sold * Unit Price for consistency.
+
+### Data Analysis
+ - Excel Analysis
+
+   - Pivot Tables for Sales data:
+1. Created pivot tables in Excel to summarize Total Sales by Product Category, Region, and Month.
+2. Analyzed Average Sales per Product and Total Revenue by Region to identify high-performing products and regions.
+
+*Insights:*
