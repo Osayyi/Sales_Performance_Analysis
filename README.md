@@ -22,7 +22,7 @@ The dataset includes the following features related to student performance:
  - OrderID: A unique identifier for each sale.
  - Customer Id: A unique identifier for each customer.
  - Product: The type of product sold.
- - Region:
+ - Region: Geographical region where the sale took place.
  - OrderDate: Date on which the sale occurred.
  - Quantity: Number of units sold in each transaction.
  - UnitPrice:
