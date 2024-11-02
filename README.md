@@ -10,6 +10,17 @@ The Sales Data dataset provides comprehensive details on transactions made at a 
 
 [Tools Used](#tools-used)
 
+[Data Cleaning](#data-cleaning)
+
+[Data Analysis](#data-analysis)
+
+[Findings and Insights](#findings-and-insights)
+
+[Conclusion](#conclusion)
+
+[Future Recommendations](#future-recommendations)
+
+
 
 ### Project Overview:
 ---
@@ -64,3 +75,19 @@ This data set was gotten from The Incubator Hub (LITA) as a task for my final Pr
 2. Analyzed Average Sales per Product and Total Revenue by Region to identify high-performing products and regions.
 
 *Insights:*
+
+ - SQL Analysis
+
+*Insights*
+
+ - Power BI Dashboard
+
+*Insights*
+
+### Findings and Insights
+
+### Conclusion
+
+### Future Recommendations
+1. Introduce a loyalty program for long-term customers.
+2. Expand popular product categories in high-performing regions.
