@@ -4,7 +4,7 @@ The Sales Data dataset provides comprehensive details on transactions made at a 
 ### Table of Content
 [Project Overview](#project-overview)
 
-[Key Fields](#key fields)
+[Key Fields](#key-fields)
 
 [Data Sources](#data-sources)
 
@@ -19,7 +19,6 @@ This dataset is used to assess sales patterns by product, region and month and a
 ### Key Fields:
 ---
 The dataset includes the following features related to student performance:
-
  - OrderID: A unique identifier for each sale.
  - Customer Id: A unique identifier for each customer.
  - Product: The type of product sold.
@@ -44,3 +43,15 @@ This data set was gotten from The Incubator Hub (LITA) as a task for my final Pr
   
 - PowerBi [Download Here](https://www.PowerBi.com)
     1. for Data Visualization
+
+### Data Cleaning
+ - Removing Duplicates: Checked for duplicate rows to ensure each transaction is unique.
+   - "Remove Duplicates Feature"
+1. Select the data range (including headers).
+2. Go to "Data" tab.
+3. Click "Remove Duplicates" (in "Data Tools" group).
+4. Choose "Select All" or specific columns.
+5. Click
+ - Handling Missing Values: There was no missing values.
+ - Standardizing Dates: Converted OrderDate to a standard date format.
+ - Calculating Total Sales: Ensured Total sales was calculated as Quantity Sold * Unit Price for consistency.
