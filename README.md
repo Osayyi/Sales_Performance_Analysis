@@ -14,6 +14,7 @@ The Sales Data dataset provides comprehensive details on transactions made at a 
 ### Project Overview:
 ---
 *Objective*:
+This dataset is used to assess sales patterns by product, region and month and also analyze retail performance by examining top-selling products, identifying regional sales trends, and tracking monthly performance.
 
 ### Dataset:
 ---
@@ -25,7 +26,7 @@ The dataset includes the following features related to student performance:
  - Region: Geographical region where the sale took place.
  - OrderDate: Date on which the sale occurred.
  - Quantity: Number of units sold in each transaction.
- - UnitPrice:
+ - UnitPrice: Price per individual unit of the product. 
 
 ### Data Sources
 ---
