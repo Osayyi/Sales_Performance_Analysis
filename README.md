@@ -4,7 +4,7 @@ The Sales Data dataset provides comprehensive details on transactions made at a 
 ### Table of Content
 [Project Overview](#project-overview)
 
-[Dataset](#dataset)
+[Key Fields](#key fields)
 
 [Data Sources](#data-sources)
 
@@ -16,7 +16,7 @@ The Sales Data dataset provides comprehensive details on transactions made at a 
 *Objective*:
 This dataset is used to assess sales patterns by product, region and month and also analyze retail performance by examining top-selling products, identifying regional sales trends, and tracking monthly performance.
 
-### Dataset:
+### Key Fields:
 ---
 The dataset includes the following features related to student performance:
 
@@ -27,6 +27,7 @@ The dataset includes the following features related to student performance:
  - OrderDate: Date on which the sale occurred.
  - Quantity: Number of units sold in each transaction.
  - UnitPrice: Price per individual unit of the product. 
+ - Total Sales: Total revenue for the transaction, calculated as Quantity Sold * Unit Price.
 
 ### Data Sources
 ---
