@@ -29,7 +29,7 @@ This dataset is used to assess sales patterns by product, region and month and a
 
 ### Key Fields:
 ---
-The dataset includes the following features related to student performance:
+The key fields includes the following features related to sales data:
  - OrderID: A unique identifier for each sale.
  - Customer Id: A unique identifier for each customer.
  - Product: The type of product sold.
