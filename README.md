@@ -8,6 +8,16 @@ The Sales Data dataset provides comprehensive details on transactions made at a 
 ---
 *Objective*:
 
+### Dataset:
+---
+The dataset includes the following features related to student performance:
+
+### Data Sources
+---
+This data set was gotten from The Incubator Hub (LITA) as a task for my final Project.
+
+### Tools Used
+---
 - Microsoft Excel [Download Here](https://www.microsoft.com)
    1. For Data Cleaning
    2. Analysis
