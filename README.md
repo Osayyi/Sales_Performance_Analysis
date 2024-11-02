@@ -2,6 +2,13 @@
 The Sales Data dataset provides comprehensive details on transactions made at a retail store.
 
 ### Table of Content
+[Project Overview](#project-overview)
+
+[Dataset](#dataset)
+
+[Data Sources](#data-sources)
+
+[Tools Used](#tools-used)
 
 
 ### Project Overview:
