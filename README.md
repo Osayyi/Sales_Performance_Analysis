@@ -79,7 +79,7 @@ The Highest revenue came from the sales of *Shoes*
 ![Screenshot (9)](https://github.com/user-attachments/assets/12e0eb2b-ba18-4ff7-9bcf-1bf6e44e00de)
 
 #### Total Sales By Region
-The most Sales was recorded in the South Region
+The most Sales was recorded in the Southern Region
 ![Screenshot (10)](https://github.com/user-attachments/assets/cff63e62-5ae0-476c-b8e6-2cda871c229a)
 
 #### Total Sales BY Month
@@ -87,12 +87,12 @@ Monthly Sales peaked in February, likely due to valentine shopping
 ![Screenshot (11)](https://github.com/user-attachments/assets/3e60b6dd-e970-4ab6-bb77-f67cea3df840)
 
 #### Average sales Per Product
-Avearge Sales per product calculated as ==AVERAGE(H2:H9922)
+Avearge Sales per product calculated as =AVERAGE(H2:H9922)
 Average sales is 211.7820784
 ![Screenshot (12)](https://github.com/user-attachments/assets/34ac1ba7-c5a6-4c8b-bf6b-10814d7ed1cc)
 
 #### Total Revenue By Region
-South generated the highest revenue at 927,820
+The South generated the highest revenue at 927,820
 ![Screenshot (13)](https://github.com/user-attachments/assets/71173050-c26e-4813-a80a-6c5081fd12c5)
 
 *Other Reports*
