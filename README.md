@@ -41,7 +41,7 @@ The key fields includes the following features related to sales data:
 
 ### Data Sources
 ---
-This data set was gotten from The Incubator Hub (LITA) as a task for my final Project.
+This data set is a Capstone Dataset and was gotten from The Incubator Hub (LITA) as a task for my final Project.
 
 ### Tools Used
 ---
@@ -74,7 +74,36 @@ This data set was gotten from The Incubator Hub (LITA) as a task for my final Pr
 1. Created pivot tables in Excel to summarize Total Sales by Product Category, Region, and Month.
 2. Analyzed Average Sales per Product and Total Revenue by Region to identify high-performing products and regions.
 
+#### Total Sales By Product
+The Highest revenue came from the sales of *Shoes* 
+![Screenshot (9)](https://github.com/user-attachments/assets/12e0eb2b-ba18-4ff7-9bcf-1bf6e44e00de)
+
+#### Total Sales By Region
+The most Sales was recorded in the South Region
+![Screenshot (10)](https://github.com/user-attachments/assets/cff63e62-5ae0-476c-b8e6-2cda871c229a)
+
+#### Total Sales BY Month
+Monthly Sales peaked in February, likely due to valentine shopping
+![Screenshot (11)](https://github.com/user-attachments/assets/3e60b6dd-e970-4ab6-bb77-f67cea3df840)
+
+#### Average sales Per Product
+Avearge Sales per product calculated as ==AVERAGE(H2:H9922)
+Average sales is 211.7820784
+![Screenshot (12)](https://github.com/user-attachments/assets/34ac1ba7-c5a6-4c8b-bf6b-10814d7ed1cc)
+
+#### Total Revenue By Region
+South generated the highest revenue at 927,820
+![Screenshot (13)](https://github.com/user-attachments/assets/71173050-c26e-4813-a80a-6c5081fd12c5)
+
+*Other Reports*
+I created a report in Excel analyzing the monthly sales trend
+**In my analysis of the monthly sales trend, February showed the highest total sales compared to other months**
+![Screenshot (14)](https://github.com/user-attachments/assets/a040167c-5df3-422c-8762-adab10c7dd51)
+
+
 *Insights:*
+ - The highest revenue came from the sales of shoe, mainly in the southern region.
+ - Monthly sales peaked in February, likely due to valentine shopping.
 
  - SQL Analysis
 
