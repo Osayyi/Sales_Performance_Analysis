@@ -140,8 +140,19 @@ SELECT Product, SUM(UnitPrice) As TotalSales
  ORDER BY 1 DESC
 ```
 
-
+*Insights*
+The sun of the revenue helps to identify the products generating the most income.
 ```
+---- Calculate Total Revenue per Product ----
+ SELECT Product, SUM(UnitPrice) TotalRevenue
+ FROM [dbo].[LITA Capstone Dataset Osayi favour Sales Data]
+ GROUP BY Product
+```
+
+*Insights*
+```
+---- Monthly Sales Totals for the Current Year ----
+
 ```
 
  - Power BI Dashboard
