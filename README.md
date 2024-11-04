@@ -150,6 +150,7 @@ The sun of the revenue helps to identify the products generating the most income
 ```
 
 *Insights*
+This Calculates Monthly sales total for the current year, allowing you to track sales trends month ny month.
 ```
 ---- Monthly Sales Totals for the Current Year ----
 SELECT
