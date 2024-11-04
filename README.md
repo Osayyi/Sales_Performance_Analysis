@@ -152,6 +152,18 @@ The sun of the revenue helps to identify the products generating the most income
 *Insights*
 ```
 ---- Monthly Sales Totals for the Current Year ----
+SELECT
+   YEAR (OrderDate) AS Year,
+   DATENAME(MONTH, OrderDate) AS MonthName,
+   SUM(UnitPrice) AS MonthlyTotalSales
+FROM 
+   [dbo].[LITA Capstone Dataset Osayi favour Sales Data]
+WHERE
+    YEAR(OrderDate) = 
+YEAR(GETDATE())
+ GROUP BY 
+    YEAR(OrderDate),
+DATENAME(MONTH, OrderDate) 
 
 ```
 
