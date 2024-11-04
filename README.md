@@ -165,10 +165,43 @@ YEAR(GETDATE())
  GROUP BY 
     YEAR(OrderDate),
 DATENAME(MONTH, OrderDate) 
+```
+
+*Insights*
+This query finds the top 5 customers based on purchase amounts, it is useful for customer targeting.
+```
+---- Top 5 Customers by Total Purchase amount ----
+SELECT TOP 5 CustomerID, SUM(UnitPrice) AS TotalPurchase
+FROM [dbo].[LITA Capstone Dataset Osayi favour Sales Data]
+GROUP BY CustomerID
+ORDER BY TotalPurchase DESC
+```
+
+*Insights*
+This query calculates the percentage of total sales from each region, showing which region contribute the most overall sales.
+```
+---- Percentage of total sales by each region ----
+SELECT 
+ Region,
+ SUM(Unitprice) * 100.0 / 
+Total.Total_Sales AS
+PercentageOfTotalSales
+ FROM
+   [dbo].[LITA Capstone Dataset Osayi favour Sales Data],
+   (SELECT SUM(UnitPrice) AS
+Total_Sales FROM [dbo].[LITA Capstone Dataset Osayi favour Sales Data] ) AS Total
+GROUP BY
+   Region, Total.Total_Sales;
+```
+
+*Insights*
+This query lists products with no sales in the last quarter, highlighting items that may need promotional efforts or re-evaluation.
+```
+---- Products with no sales in the last quarter ----
 
 ```
 
- - Power BI Dashboard
+ #### Power BI Dashboard
 
 *Insights*
 
