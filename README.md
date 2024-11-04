@@ -105,9 +105,43 @@ I created a report in Excel analyzing the monthly sales trend
  - The highest revenue came from the sales of shoe, mainly in the southern region.
  - Monthly sales peaked in February, likely due to valentine shopping.
 
- - SQL Analysis
+ #### SQL Analysis
+```
+ SELECT * FROM TABLE [dbo].[LITA Capstone Dataset Osayi favour Sales Data]
+
+ ---- Total Sales For Each Product Category ----
+SELECT Product, SUM(UnitPrice) AS TotalSales
+FROM [dbo].[LITA Capstone Dataset Osayi favour Sales Data] 
+GROUP BY Product
+```
 
 *Insights*
+This query sums up the total sales for each product category, allowing us to see which category performs best.
+Shoes perform best.
+
+```
+---- Number of Sales Transactions in Each Region ----
+SELECT Region, COUNT(*) AS SalesTransaction
+FROM [dbo].[LITA Capstone Dataset Osayi favour Sales Data]
+GROUP BY Region;
+```
+
+*Insights*
+Shows the count of transactions per region, highlighting areas with higher sales activity.
+
+```
+---- Highest-selling Product by Total Sales Value ----
+SELECT Product, SUM(UnitPrice) As TotalSales
+ FROM [dbo].[LITA Capstone Dataset Osayi favour Sales Data] 
+ GROUP BY Product
+ ORDER BY 1 DESC
+```
+
+*Insights*
+This query gives insight into your best seller.
+
+```
+```
 
  - Power BI Dashboard
 
