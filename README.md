@@ -213,7 +213,7 @@ The Power BI dashboard includes the following key visuals, allowing for an inter
 ![Screenshot (24)](https://github.com/user-attachments/assets/acb70bcb-d9d6-47ac-8c6e-49fc796038a6)
 
 ### Findings and Insights
- -**February Sales Spike**: The high sales in February suggest that promotional efforts could be strategically focused around this period to maximize impact.
+ - **February Sales Spike**: The high sales in February suggest that promotional efforts could be strategically focused around this period to maximize impact.
  - **Top Products and Categories**: Concentrating inventory and marketing efforts on top products, like shoes, could optimize revenue.
  - **Regional Performance**: Expanding marketing or distribution efforts in the southern region with strong sales performance may boost overall revenue and brand presence.
 
