@@ -198,7 +198,12 @@ GROUP BY
 This query lists products with no sales in the last quarter, highlighting items that may need promotional efforts or re-evaluation.
 ```
 ---- Products with no sales in the last quarter ----
-
+SELECT p.Product
+FROM [dbo].[LITA Capstone Dataset Osayi favour Sales Data] p
+LEFT JOIN [dbo].[LITA Capstone Dataset Osayi favour Sales Data] s ON p.CustomerID = s.CustomerID 
+   AND s.OrderDate >= DATEADD(QUARTER, -1, GETDATE())
+WHERE s.CustomerID IS NULL
+ORDER BY p.Product;
 ```
 
  #### Power BI Dashboard
