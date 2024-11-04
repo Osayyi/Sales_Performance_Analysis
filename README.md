@@ -207,12 +207,18 @@ ORDER BY p.Product;
 ```
 
  #### Power BI Dashboard
+The Power BI dashboard includes the following key visuals, allowing for an interactive analysis:
+ - Sales Overview: Displays total sales, monthly trends, and cumulative revenue.
 
-*Insights*
+![Screenshot (24)](https://github.com/user-attachments/assets/acb70bcb-d9d6-47ac-8c6e-49fc796038a6)
 
 ### Findings and Insights
+ -**February Sales Spike**: The high sales in February suggest that promotional efforts could be strategically focused around this period to maximize impact.
+ - **Top Products and Categories**: Concentrating inventory and marketing efforts on top products, like shoes, could optimize revenue.
+ - **Regional Performance**: Expanding marketing or distribution efforts in the southern region with strong sales performance may boost overall revenue and brand presence.
 
 ### Conclusion
+This dashboard provides a comprehensive view of the sales performance, helping stakeholders make informed decisions on inventory, promotions, and regional expansion. The interactive features enable easy exploration of insights, making it a valuable tool for both operational and strategic planning.
 
 ### Future Recommendations
 1. Introduce a loyalty program for long-term customers.
